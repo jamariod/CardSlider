@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		287045C024807081008129D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287045BF24807081008129D0 /* AppDelegate.swift */; };
+		287045C224807081008129D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287045C124807081008129D0 /* SceneDelegate.swift */; };
+		287045C424807081008129D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287045C324807081008129D0 /* ViewController.swift */; };
+		287045C724807081008129D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287045C524807081008129D0 /* Main.storyboard */; };
+		287045C924807088008129D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287045C824807088008129D0 /* Assets.xcassets */; };
+		287045CC24807088008129D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287045CA24807088008129D0 /* LaunchScreen.storyboard */; };
+		52F7528F2625088D01218B8F /* Pods_SlidingCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C735445D67FB1352C9BAB4 /* Pods_SlidingCards.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		287045BC24807081008129D0 /* SlidingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		287045BF24807081008129D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		287045C124807081008129D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		287045C324807081008129D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		287045C624807081008129D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		287045C824807088008129D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		287045CB24807088008129D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		287045CD24807088008129D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5182C26A4E8F8EDE0B294BAB /* Pods-SlidingCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidingCards.debug.xcconfig"; path = "Target Support Files/Pods-SlidingCards/Pods-SlidingCards.debug.xcconfig"; sourceTree = "<group>"; };
+		A3F8515698526DCBA3E7D1AD /* Pods-SlidingCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidingCards.release.xcconfig"; path = "Target Support Files/Pods-SlidingCards/Pods-SlidingCards.release.xcconfig"; sourceTree = "<group>"; };
+		D3C735445D67FB1352C9BAB4 /* Pods_SlidingCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlidingCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		287045B924807081008129D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F7528F2625088D01218B8F /* Pods_SlidingCards.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		287045B324807081008129D0 = {
+			isa = PBXGroup;
+			children = (
+				287045BE24807081008129D0 /* SlidingCards */,
+				287045BD24807081008129D0 /* Products */,
+				B70B4829F92FCA515FD588A4 /* Pods */,
+				686C139C343CD76519E55A32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		287045BD24807081008129D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				287045BC24807081008129D0 /* SlidingCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		287045BE24807081008129D0 /* SlidingCards */ = {
+			isa = PBXGroup;
+			children = (
+				287045BF24807081008129D0 /* AppDelegate.swift */,
+				287045C124807081008129D0 /* SceneDelegate.swift */,
+				287045C324807081008129D0 /* ViewController.swift */,
+				287045C524807081008129D0 /* Main.storyboard */,
+				287045C824807088008129D0 /* Assets.xcassets */,
+				287045CA24807088008129D0 /* LaunchScreen.storyboard */,
+				287045CD24807088008129D0 /* Info.plist */,
+			);
+			path = SlidingCards;
+			sourceTree = "<group>";
+		};
+		686C139C343CD76519E55A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3C735445D67FB1352C9BAB4 /* Pods_SlidingCards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B70B4829F92FCA515FD588A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5182C26A4E8F8EDE0B294BAB /* Pods-SlidingCards.debug.xcconfig */,
+				A3F8515698526DCBA3E7D1AD /* Pods-SlidingCards.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		287045BB24807081008129D0 /* SlidingCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287045D024807088008129D0 /* Build configuration list for PBXNativeTarget "SlidingCards" */;
+			buildPhases = (
+				85AD8219111ABEAE76F120C2 /* [CP] Check Pods Manifest.lock */,
+				287045B824807081008129D0 /* Sources */,
+				287045B924807081008129D0 /* Frameworks */,
+				287045BA24807081008129D0 /* Resources */,
+				70DA531309A5B753446D5473 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingCards;
+			productName = SlidingCards;
+			productReference = 287045BC24807081008129D0 /* SlidingCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		287045B424807081008129D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = KAYCAM;
+				TargetAttributes = {
+					287045BB24807081008129D0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 287045B724807081008129D0 /* Build configuration list for PBXProject "SlidingCards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 287045B324807081008129D0;
+			productRefGroup = 287045BD24807081008129D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				287045BB24807081008129D0 /* SlidingCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		287045BA24807081008129D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287045CC24807088008129D0 /* LaunchScreen.storyboard in Resources */,
+				287045C924807088008129D0 /* Assets.xcassets in Resources */,
+				287045C724807081008129D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70DA531309A5B753446D5473 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlidingCards/Pods-SlidingCards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlidingCards/Pods-SlidingCards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SlidingCards/Pods-SlidingCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85AD8219111ABEAE76F120C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlidingCards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		287045B824807081008129D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287045C424807081008129D0 /* ViewController.swift in Sources */,
+				287045C024807081008129D0 /* AppDelegate.swift in Sources */,
+				287045C224807081008129D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		287045C524807081008129D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287045C624807081008129D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		287045CA24807088008129D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287045CB24807088008129D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		287045CE24807088008129D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		287045CF24807088008129D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		287045D124807088008129D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5182C26A4E8F8EDE0B294BAB /* Pods-SlidingCards.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVFZH768BB;
+				INFOPLIST_FILE = SlidingCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KAYCAM.SlidingCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		287045D224807088008129D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F8515698526DCBA3E7D1AD /* Pods-SlidingCards.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVFZH768BB;
+				INFOPLIST_FILE = SlidingCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KAYCAM.SlidingCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		287045B724807081008129D0 /* Build configuration list for PBXProject "SlidingCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287045CE24807088008129D0 /* Debug */,
+				287045CF24807088008129D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287045D024807088008129D0 /* Build configuration list for PBXNativeTarget "SlidingCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287045D124807088008129D0 /* Debug */,
+				287045D224807088008129D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 287045B424807081008129D0 /* Project object */;
+}
